@@ -1,0 +1,49 @@
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  .custom-table th,
+  .custom-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .custom-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .custom-link {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .custom-link:hover {
+    color: #666;
+  }
+  
+  .custom-button {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .custom-button--danger {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .custom-button--danger:hover {
+    background-color: #c82333;
+  }
+  
+  .custom-text {
+    color: #dc3545;
+    font-weight: bold;
+  }

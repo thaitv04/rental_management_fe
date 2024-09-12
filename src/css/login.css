@@ -1,0 +1,13 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #0099ff;
+}
+.loginForm{
+    border: initial;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 3px #888888;
+}

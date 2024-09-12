@@ -1,0 +1,172 @@
+.body{
+    width: 100%;
+}
+
+.between{
+    width: 100%;
+}
+.left{
+    width: 20%;
+}
+.container{
+    width: 60%;
+}
+.right{
+    width: 20%;
+}
+.containerSearch{
+    margin-left: 14%;
+    
+}
+
+
+.container {
+    margin-top: 3%;
+}
+.container_top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.a{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: flex-start;
+    align-content: space-between;
+}
+
+/* Header */
+.header {
+    background-color: white;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar {
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #6c757d;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #495057;
+}
+
+.nav-link.active {
+    color: #495057;
+    font-weight: 500;
+}
+
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.dropdown-item {
+    padding: 0.5rem 1rem;
+    color: #6c757d;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+.dropdown-item:hover {
+    color: #495057;
+    background-color: #f8f9fa;
+}
+/* Content */
+/* Container */
+.container {
+    /* display: flex; */
+    justify-content: space-between;
+  }
+  
+  /* Container Top */
+  .container_top {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  
+  /* House Card */
+  .house-card {
+    flex-basis: calc(25% - 1.5rem);
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .house-card .image-tour {
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .house-card .image-tour img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .house-card:hover .image-tour img {
+    transform: scale(1.1);
+  }
+  
+  .house-card .title-tour {
+    padding: 1rem;
+  }
+  
+  .house-card .title-tour p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .house-card .title-tour p.clr-black {
+    color: #333;
+  }
+  
+  .house-card .title-tour p small {
+    color: #666;
+  }
+  
+  
+  
+  /* Responsive Styles */
+  @media (max-width: 991px) {
+    .house-card {
+      flex-basis: calc(33.33% - 1.5rem);
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .house-card {
+      flex-basis: calc(50% - 1.5rem);
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .house-card {
+      flex-basis: 100%;
+    }
+  }
+
+  /* Title-status */
+  .title_status{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .house-card .title-tour{
+    min-width: 19rem;
+  }
